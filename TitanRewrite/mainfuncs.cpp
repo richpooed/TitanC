@@ -160,7 +160,7 @@ bool validateVersion() {
 	CURL* curl = curl_easy_init();
 	CURLcode res;
 	std::string version;
-	curl_easy_setopt(curl, CURLOPT_URL, "https://vortex-b.xyz/api/ascensionsniper/version");
+	curl_easy_setopt(curl, CURLOPT_URL, "https://pastebin.com/raw/XXtwVZmh");
 	curl_easy_setopt(curl, CURLOPT_POSTFIELDSIZE, 0);
 	curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
 	curl_easy_setopt(curl, CURLOPT_WRITEDATA, &version);
